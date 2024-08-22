@@ -3,9 +3,10 @@ name: Release Charts
 on:
   push:
     branches:
-      - 'main'
+      - "main"
+      - "v3"
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
